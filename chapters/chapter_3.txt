@@ -1,0 +1,5 @@
+Momentum is a quantity possessed by masses in motion (product of mass and velocity ). Momentum is
+measure of how difficult it is to stop something that is moving. We calculate the momentum of a moving
+object using the formula:
+Momentum, p(kg m/s) = mass , m(in kg) x velocity , v (in m/s)
+P= m x v

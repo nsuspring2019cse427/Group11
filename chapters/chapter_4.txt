@@ -1,0 +1,16 @@
+b) Mains electricity
+2.2 understand and identify the hazards of electricity including frayed cables, long cables,
+damaged plugs, water around sockets, and pushing metal objects into sockets
+Mains electricity: The source of electricity in our houses is called mains electricity.
+Electricity meter: The meter that measures the electrical energy we consume in our house is called
+electricity meter.
+Fuse box(or Consumer unit): The box that contains all fuse and circuit breakers in a circuit is called fuse
+box.
+Ring main circuit: Wires that leave the fuse box are hidden in the walls or floors around each room.
+These wires are connected to form ring main circuits. Individual equipments are connected to these
+circuits using plugs. It consists of three wires: live wire, neutral wire and earth wire.
+Live wire: The wire that contains the electricity all the time is called live wire.
+Neutral wire: The wire that usually doesn’t contain the electricity but when it is connected with the live
+wire then it also become live. The neutral wire completes the circuit.
+Earth wire: The earth wire usually has no current flowing through it. It is there to protect user if an
+appliance develops a fault.
