@@ -6,7 +6,7 @@ public class ChapterReader {
 	public ChapterReader(File[] x )
 	{
 		
-		this.
+		this.listOfFiles = x;
 	}
 
 	public ChapterWordCount[] GetChapterWiseWordFrequency() {
@@ -18,7 +18,7 @@ public class ChapterReader {
 			
 			Scanner s = new Scanner(file).useDelimiter(" +");
 			//System.out.println(listOfFiles[i].getName());
-			int poi= 0;
+			
 			
 			while (s.hasNextLine())
 			{
