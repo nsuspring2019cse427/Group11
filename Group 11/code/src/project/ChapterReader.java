@@ -3,6 +3,7 @@ import java.util.Scanner;
 
 public class ChapterReader {
 	private File[] listOfFiles;
+	private ChapterWordCount[] l;
 	public ChapterReader(File[] x )
 	{
 		
@@ -29,7 +30,7 @@ public class ChapterReader {
 			 }
 			listofchapterwords.add(wordCount);
 		}
-		
+		this.l= listofchapterwords;
 		return listofchapterwords.toArray();
 	}
 	
@@ -38,13 +39,22 @@ public class ChapterReader {
 	}
 }
 
+public String FindChapterWithMostMatch(String [] x, ChapterWordCount[] o)
+{
+	
+}
+
+
+
 ChapterWordCount[] listOfChapterWordCount = new ChapterReader(listOfFiles).GetChapterWiseWordFrequency();
 
 
 ChapterWordContainer container = new ChapterWordContainer(listOfChapterWordCount);
-QuestionPaperWords qpWords = new QuestionPaperWords(qpFile);
-String[] wordsInQp = qpWords.getAllWords();
+QuestionPaperWords[] qpWords = new QuestionPaperWords(qpFile).GetQuestionwiseWords();
+//String[] wordsInQp = qpWords.getAllWords();
 
-String chapter = container.FindChapter(wordsInQp);
+//String chapter = container.FindChapter(wordsInQp);
+AllocateQuestionsToChapters
+
 
 
