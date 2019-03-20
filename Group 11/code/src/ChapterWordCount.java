@@ -1,4 +1,3 @@
-import java.util*;
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;
@@ -43,8 +42,16 @@ public class ChapterWordCount {
 		
 	}
 	
-	public string getWordWithMaxCount() {
-		
-	
+	public int getWeight(String[] words) {
+		int sum = 0;
+		for(int i = 0; i < words.length; ++i) {
+			sum += this.getCount(words[i]);
+		}
+		return sum;
 	}
+	
+	public String getName() {
+		return this.chapterName;
+	}
+	
 }
