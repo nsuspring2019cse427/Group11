@@ -8,35 +8,12 @@ import org.junit.runner.RunWith;
 import static org.junit.Assert.*;
 
 @RunWith(Arquillian.class)
-public class ChapterWordCountTest {
+public class ChapterReaderTest {
     @Deployment
     public static JavaArchive createDeployment() {
         return ShrinkWrap.create(JavaArchive.class)
-                .addClass(ChapterWordCount.class)
+                .addClass(ChapterReader.class)
                 .addAsManifestResource(EmptyAsset.INSTANCE, "beans.xml");
     }
 
-    @org.junit.Before
-    public void setUp() throws Exception {
-    }
-
-    @org.junit.After
-    public void tearDown() throws Exception {
-    }
-
-    @org.junit.Test
-    public void getChapterName() {
-    }
-
-    @org.junit.Test
-    public void addCount() {
-    }
-
-    @org.junit.Test
-    public void getCount() {
-    }
-
-    @org.junit.Test
-    public void getWordWithMaxCount() {
-    }
 }
